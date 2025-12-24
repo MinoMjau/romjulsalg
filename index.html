@@ -15,7 +15,7 @@
     </style>
   </head>
   <body>
-    <h1>Linkene til GPUene kommer 00:20 | 25.Desember!</h1>
+    <h1>Linkene til GPUene kommer 00:20!</h1>
     <div class="hidden content">
       <article>
         <button onclick="location.reload(true)">
@@ -26,12 +26,19 @@
         >;
         <h1>God Jul!</h1>
         <h1>Lurer du på hvilken GPU du burde kjøpe?</h1>
-        <h1>RX9070XT (Best) > RX9070 (Bedre) > RTX 5070(Bra)</h1>
+        <h1>
+          RX9070XT (Best) > RX9070 (Bedre) > RTX 5070(Bra) > RTX 5060 ti (ok) >
+          9060 XT (ok)
+        </h1>
         <img src="nvidialogo.jpg" alt="" id="logo" />
-
         <a href="" class="gpulinker">
           <h1>NVIDIA RTX 5070</h1>
           <img src="rtx5070.jpg" alt="" class="gpubilder" />
+          <h1>Pris:</h1>
+        </a>
+        <a href="" class="gpulinker">
+          <h1>NVIDIA RTX 5060 ti 16GB</h1>
+          <img src="rtx5060.jpg" alt="" class="gpubilder" />
           <h1>Pris:</h1>
         </a>
       </article>
@@ -39,21 +46,26 @@
         <img src="amdlogo.jpg" alt="" id="logo" />
         <br />
         <a href="" class="gpulinker">
-          <h1>AMD RX 9070</h1>
-          <img src="rx9070.jpg" alt="" class="gpubilder" />
+          <h1>AMD RX 9070 XT</h1>
+          <img src="rx9070xt.jpeg" alt="" class="gpubilder" />
           <h1>Pris:</h1>
         </a>
         <br />
         <a href="" class="gpulinker">
-          <h1>AMD RX 9070 XT</h1>
-          <img src="rx9070xt.jpeg" alt="" class="gpubilder" />
+          <h1>AMD RX 9070</h1>
+          <img src="rx9070.jpg" alt="" class="gpubilder" />
+          <h1>Pris:</h1>
+        </a>
+        <a href="" class="gpulinker">
+          <h1>AMD RX 9060 XT 16GB</h1>
+          <img src="9060xt.jpg" alt="" class="gpubilder" />
           <h1>Pris:</h1>
         </a>
       </article>
     </div>
   </body>
   <script>
-    const desiredDate = new Date("2025-12-25T00:20:00+01:00").getTime();
+    const desiredDate = new Date("2025-12-23T00:20:00+01:00").getTime();
 
     function conditionalShow() {
       if (Date.now() > desiredDate) {
